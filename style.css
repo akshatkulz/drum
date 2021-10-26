@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: skyblue;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0;
+  opacity: 0.5;
+}
+
+.drum {
+  padding: 20px 30px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: navy;
+  border: none;
+  border-radius: 15px;
+  color: rgb(238, 235, 235);
+  font-weight: bolder;
+}
+
+.drum:hover {
+  background-color: #3e8e41;
+}
+
+.drum:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
